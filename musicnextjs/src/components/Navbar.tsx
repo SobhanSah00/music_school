@@ -16,7 +16,6 @@ import Link from "next/link";
                             
                     </MenuItem>
                 </Link>
-                <Link href={'/ourcourses'}>
                     <MenuItem setActive={setActive} active={active} item="Our Courses">
                             <div className="flex flex-col space-y-4 text-sm">
                                 <HoveredLink href="/web-dev">All Courses</HoveredLink>
@@ -26,7 +25,7 @@ import Link from "next/link";
                                 <HoveredLink href="/web-dev">Music Production</HoveredLink>
                             </div> 
                     </MenuItem>
-                </Link>
+                
                 <Link href={'/contact'}>
                     <MenuItem setActive={setActive} active={active} item="Contact Us">
                             hello
